@@ -1,0 +1,14 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs32 \cf0 Instruction for the Boundary condition problem algorithm:\
+- the main file to run in order to obtain the simulation is \'91Simulator.m\'92 that is equal to the one of the Riemann problem, but with different boundary conditions.\
+- What change are the files: initial_datum.m, boundaries_check.m and fin.m.\
+- is possible to change the number of vehicle commenting the lines dedicated to them (26-36). The vehicles are made by a class, called av, using the objective oriented programming. The line under each vehicle is needed in order to update the parameter in the class. You can find more info in the file \'91av.m\'92.\
+- The plotting section from line 342 up to 367 plot the density w.r.t. to the cells occupied by each vehicle at each instant of time.\
+- The plotting section from line 377 up to 397 plot the 2D of the density and the trajectory of each vehicle with the color from green to red.\
+- The file \'91TFC_speed.m\'92 recreate the figure of the total fuel consumption w.r.t. to the velocity of one vehicle (the one Giulia Piacentini published of the paper).}
